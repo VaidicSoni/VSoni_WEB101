@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>Wander India's Wonders</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="./img/Logo.png">
+        <style>
+            #header-img {
+                height: 100px;
+                margin-right: 15px;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#culture">Culture</a></li>
+                    <li><a href="#enquiry">Enquiry</a></li>
+                    <li><a href="#links">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="branding">
+                <img id="header-img" src="./img/Logo.png" alt="Logo">
+                <h1>
+                    <span style="color:darkorange;">Wander</span>
+                    <span style="color:rgb(14, 86, 168);">India's</span>
+                    <span style="color:rgb(23, 101, 56);">Wonders</span>
+                </h1>
+            </div>
+            <h2>
+                Your Ultimate Travel Guide
+            </h2>
+
+        <section class="hero">
+            <p>Ready to explore the diversity of India?</p>
+            <div class="buttons">
+            <button>Start Your Journey</button>
+            <button>Explore Destinations</button>
+            </div>
+        </section>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <section id="about">
+            <h2>About India</h2>
+            <li>India is a land of rich traditions, vibrant festivals, and diverse landscapes. From the majestic Himalayas to the serene backwaters of Kerala, every corner tells a story worth discovering.</li>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JtOMlDLxEy0?si=pUJJf9yP9edh04OV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <div class="card-grid">
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/tajmahal.jpg" alt="Taj Mahal">
+                            <h3>Agra</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Home to the iconic Taj Mahal, a wonder of the world and symbol of love.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/hawamahal.jpg" alt="Jaipur">
+                            <h3>Jaipur</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>The Pink City with royal palaces, forts, and vibrant culture.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/goa.jpg" alt="Goa">
+                            <h3>Goa</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Famous for beaches, nightlife, and Portuguese heritage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/kerala.jpg" alt="Kerala">
+                            <h3>Kerala</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>God’s Own Country with backwaters, ayurveda, and lush greenery.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/varanasi.jpg" alt="Varanasi">
+                            <h3>Varanasi</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>India’s spiritual capital with ancient temples and Ganga aartis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/ladakh.jpg" alt="Leh Ladakh">
+                            <h3>Ladakh</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Adventure paradise with monasteries, mountains, and clear lakes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/mumbai.jpg" alt="Mysore">
+                            <h3>Mumbai</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Known for palaces, Dasara festival, and traditional silk.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img id="photos" src="./img/kashmir.jpg" alt="Kolkata">
+                            <h3>Kashmir</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>The City of Joy with colonial charm, literature, and sweets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="culture">
+            <h2>Experience Indian Culture</h2>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <img src="./img/festival.jpg" alt="Festivals">
+                    <h3>Festivals</h3>
+                    <p>Celebrate Diwali, Holi, and Navratri with vibrant traditions.</p>
+                </div>
+                <div class="culture-card">
+                    <img src="./img/spiritual.jpg" alt="Spirituality">
+                    <h3>Spirituality</h3>
+                    <p>Visit temples, ghats, and explore yoga & meditation.</p>
+                </div>
+                <div class="culture-card">
+                    <img src="./img/food.jpg" alt="Cuisine">
+                    <h3>Cuisine</h3>
+                    <p>Delight in regional thalis, spices, and sweet desserts.</p>
+                </div>
+                <div class="culture-card">
+                    <img src="./img/dance.jpeg" alt="Dance">
+                    <h3>Art & Dance</h3>
+                    <p>Enjoy classical forms like Kathak and Bharatnatyam.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips">
+            <h2>Essential Travel Tips</h2>
+            <ul>
+                <li>Carry copies of your passport, visa, and travel insurance.</li>
+                <li>Use prepaid taxis or apps like Uber/Ola for safe transport.</li>
+                <li>Drink only bottled water and eat at recommended places.</li>
+                <li>Respect local customs, dress modestly at religious sites.</li>
+                <li>Learn a few Hindi phrases – locals appreciate it!</li>
+            </ul>
+        </section>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <section id="schedule">
+            <h2>Sample 7-Day Itinerary</h2>
+            <div class="schedule-list">
+                <div class="day">
+                    <h3>Day 1: Delhi</h3>
+                    <p>Explore Red Fort, Qutub Minar, and street food in Chandni Chowk.</p>
+                </div>
+                <div class="day">
+                    <h3>Day 2–3: Agra & Jaipur</h3>
+                    <p>Visit the Taj Mahal, Fatehpur Sikri, then head to Jaipur's Amber Fort and Hawa Mahal.</p>
+                </div>
+                <div class="day">
+                    <h3>Day 4–5: Varanasi</h3>
+                    <p>Attend the Ganga Aarti, take a boat ride at sunrise, and visit Sarnath.</p>
+                </div>
+                <div class="day">
+                    <h3>Day 6–7: Kerala</h3>
+                    <p>Relax on houseboats, enjoy an ayurvedic massage, and try coconut-based cuisine.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+        
+        <section id="enquiry">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, want help planning your trip, or just want to share your thoughts, feel free to reach out!</p>
+            
+            <form class="enquiry-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name"> <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com"> <br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea> <br>
+
+                <button type="submit">Send Enquiry</button>
+            </form>
+        </section>
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <section id="links">
+            <h2>Useful Resources</h2>
+            <div class="links-grid">
+                <a class="block" href="https://incredibleindia.org" target="_blank">
+                    <article>
+                        <h3>Incredible India</h3>
+                        <p>Official tourism site for India</p>
+                    </article>
+                </a>
+                <a class="block" href="https://www.indianrail.gov.in/" target="_blank">
+                    <article>
+                        <h3>Indian Railways</h3>
+                        <p>Plan and book train journeys</p>
+                    </article>
+                </a>
+                <a class="block" href="https://www.makemytrip.com/" target="_blank">
+                    <article>
+                        <h3>MakeMyTrip</h3>
+                        <p>Hotels, flights, and packages</p>
+                    </article>
+                </a>
+                <a class="block" href="https://weather.com" target="_blank">
+                    <article>
+                        <h3>Weather Forecast</h3>
+                        <p>Check local weather before you travel</p>
+                    </article>
+                </a>
+            </div>
+        </section>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+
+        <footer>
+            <p>&copy; 2025 Wander India's Wonders. All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>
