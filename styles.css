@@ -207,6 +207,7 @@ h2 {
 .culture-card img {
   width: 250px;
   height: 180px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 12px;
