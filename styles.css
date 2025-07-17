@@ -90,6 +90,20 @@ h2 {
     color: white;
 }
 
+.about-text {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgba(213, 255, 181, 0.8); 
+  padding: 20px;
+  border-left: 6px solid #006400; 
+  border-radius: 10px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2e2e2e;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -257,7 +271,7 @@ body {
     border: none;
     font-size: 14px;
     cursor: pointer;
-    padding: 4px 8px;
+    padding: 2px 8px;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -266,10 +280,17 @@ body {
     background-color: #e6851a;
 }
 
-/* DARK MODE STYLES */
 .dark-mode {
     background-color: #121212;
     color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #FF9933; 
+}
+
+body.dark-mode button:hover {
+  background-color: #006400;
 }
 
 .dark-mode .navbar {
@@ -284,6 +305,11 @@ body {
 .dark-mode .navbar a:hover {
     background-color: #FF9933;
     color: white;
+}
+
+.dark-mode .about-text{
+  background-color: rgba(255, 243, 207, 0.85);
+  border-left: 6px solid #FF9933;
 }
 
 .dark-mode .card-front,
