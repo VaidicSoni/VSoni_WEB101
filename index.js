@@ -11,3 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   themeButton.addEventListener('click', toggleDarkMode);
 });
+
+document.getElementById("enquiry-btn").addEventListener("click", () => {
+  document.getElementById("enquiry").scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("destinations-btn").addEventListener("click", () => {
+  document.getElementById("destinations").scrollIntoView({ behavior: "smooth" });
+});
